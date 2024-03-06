@@ -1,6 +1,6 @@
 import {AiFillGithub} from 'react-icons/ai'
 import { FaLinkedinIn, FaInstagram} from 'react-icons/fa'
-import img1 from '../assets/Divi.jpg'
+import img1 from '../assets/profile1.jpg'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
