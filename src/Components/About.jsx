@@ -3,16 +3,6 @@ import img2 from '../assets/Divya.png'
 
 const About = () => {
 
-  const downloadResume = () => {
-    const resumeUrl = '../assets/resume.pdf';
-    const link = document.createElement('a');
-    link.href = resumeUrl;
-    link.setAttribute('download', 'resume.pdf');
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
-
   return (
 
     <div id="About" className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg-text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
@@ -24,7 +14,7 @@ const About = () => {
         <div className="flex mt-8 gap-2">
           <div className="flex items-center justify-center">
             <div className="flex space-x-2">
-              <button className="neno-button shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-4 px-8 uppercase relative overflow-hidden" onClick={downloadResume}>Resume</button>
+              <button className="neno-button shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-4 px-8 uppercase relative overflow-hidden"><a href='https://drive.google.com/file/d/19I6uMMVAtCW_rzS0gQOHpbpYh0Y6nRN0/view?usp=sharing'>Resume</a></button>
             </div>
           </div>
         </div>
