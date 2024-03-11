@@ -1,6 +1,14 @@
-
+import { useEffect } from "react"
+import AOS from 'aos'
 
 const Contact = () => {
+  useEffect(() => {
+    AOS.init({
+        easing: 'ease-out-quart',
+        delay: 0,
+        duration: 750
+    })
+},[1000])
   return (
     <div id="Contact" className="p-4 lg:p-20  flex flex-col items-center justify-center">
       <h1 data-aos="fade-left" className="text-[52px] font-semibold mb-20 leading-normal uppercase text-fuchsia-500">Contact Me</h1>

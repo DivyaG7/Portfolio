@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import img1 from '../assets/project1.png'
 import img2 from '../assets/project2.png'
 import img3 from '../assets/project3.png'
 import img4 from '../assets/project4.png'
+import AOS from 'aos'
 
 const Projects = () => {
+  useEffect(() => {
+    AOS.init({
+        easing: 'ease-out-quart',
+        delay: 0,
+        duration: 750
+    })
+},[1000])
   return (
     <div id="Projects" className='p-20 flex flex-col items-center justify-center '>
       <h1 data-aos="fade-right" className='text-[52px] font-semibold mb-20 leading-normal uppercase text-fuchsia-500'>Projects</h1>
