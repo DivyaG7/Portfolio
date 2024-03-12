@@ -21,14 +21,14 @@ const Footer = () => {
         </div>
         <div className="mb-4 md:mb-0">
           <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">Follow Me</h2>
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 my-4">
             <a className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out" href="https://github.com/DivyaG7">
               <FaGithub />
             </a>
-            <a className="text-white hover:text-fuchsia-800 transition-all duration-150" href="https://www.linkedin.com/in/divya-g-88608a223">
+            <a className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out" href="https://www.linkedin.com/in/divya-g-88608a223">
               <FaLinkedin />
             </a>
-            <a className="text-white hover:text-fuchsia-800 transition-all duration-150" href="https://www.instagram.com/divyag5562/">
+            <a className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out" href="https://www.instagram.com/divyag5562/">
               <FaInstagram />
             </a>
           </div>
