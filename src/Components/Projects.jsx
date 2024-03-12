@@ -19,7 +19,7 @@ const Projects = () => {
       <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-around gap-20'>
         <a href='https://dfloristapp.netlify.app/' target='blank'>
           <div data-aos="fade-up"  className='change border-2 border-fuchsia-800 b_glow'>
-            <img height={250} width={250} className='text-[26px] flex items-center justify-center  rounded-3xl p-1' src={img1} alt='' />
+            <img height={250} width={250} className='text-[26px] flex items-center justify-center  rounded-t-3xl p-1' src={img1} alt='' />
             <div className='heading'>
               <p className='flex items-center justify-center font-bold text-[20px] h-content'>E-Commerce Website</p>
               <p className='flex items-center justify-center p-content'>React</p>
@@ -28,7 +28,7 @@ const Projects = () => {
         </a>
         <a href='https://cheery-pothos-dc837f.netlify.app/' target='blank'>
           <div data-aos="fade-down" className='change border-2 border-fuchsia-800 b_glow'>
-            <img height={250} width={250} className='text-[26px] flex items-center justify-center  rounded-3xl p-1 ' src={img2} alt='' />
+            <img height={250} width={250} className='text-[26px] flex items-center justify-center  rounded-t-3xl p-1 ' src={img2} alt='' />
             <div className='heading'>
               <p className='flex items-center justify-center font-bold text-[20px] h-content'>Pokemon API</p>
               <p className='flex items-center justify-center p-content'>Javascript</p>
@@ -37,7 +37,7 @@ const Projects = () => {
         </a>
         <a href='https://flowershop.odoo.com/' target='blank'>
           <div data-aos="fade-up" className='change border-2 border-fuchsia-800 b_glow'>
-            <img  height={250} width={250} className='text-[26px] flex items-center justify-center  rounded-3xl p-1 ' src={img3} alt='' />
+            <img  height={250} width={250} className='text-[26px] flex items-center justify-center  rounded-t-3xl p-1 ' src={img3} alt='' />
             <div className='heading'>
               <p className='flex items-center justify-center font-bold text-[20px] h-content'>Flowershop</p>
               <p className='flex items-center justify-center p-content'>Javascript & Python</p>
@@ -46,7 +46,7 @@ const Projects = () => {
         </a>
         <a href='https://irita.netlify.app' target='blank'>
           <div data-aos="fade-down" className='change border-2 border-fuchsia-800 b_glow'>
-            <img  height={250} width={250} className='text-[26px] flex items-center justify-center  rounded-3xl p-1 ' src={img4} alt='' />
+            <img  height={250} width={250} className='text-[26px] flex items-center justify-center  rounded-t-3xl p-1 ' src={img4} alt='' />
             <div className='heading'>
               <p className='flex items-center justify-center font-bold text-[20px] h-content'>Irita</p>
               <p className='flex items-center justify-center p-content'>React / Bootstrap</p>
