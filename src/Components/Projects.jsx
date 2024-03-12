@@ -35,7 +35,7 @@ const Projects = () => {
             </div>
           </div>
         </a>
-        <a href='https://test1114.odoo.com/'>
+        <a href='https://flowershop.odoo.com/'>
           <div data-aos="fade-up" className='change border-2 border-fuchsia-800 b_glow'>
             <img  height={250} width={250} className='text-[26px] flex items-center justify-center  rounded-3xl p-1 ' src={img3} alt='' />
             <div className='heading'>
