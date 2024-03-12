@@ -17,7 +17,7 @@ const Projects = () => {
     <div id="Projects" className='p-20 flex flex-col items-center justify-center '>
       <h1 data-aos="fade-right" className='text-[52px] font-semibold mb-20 leading-normal uppercase text-fuchsia-500'>Projects</h1>
       <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-around gap-20'>
-        <a href='https://dfloristapp.netlify.app/'>
+        <a href='https://dfloristapp.netlify.app/' target='blank'>
           <div data-aos="fade-up"  className='change border-2 border-fuchsia-800 b_glow'>
             <img height={250} width={250} className='text-[26px] flex items-center justify-center  rounded-3xl p-1' src={img1} alt='' />
             <div className='heading'>
@@ -26,7 +26,7 @@ const Projects = () => {
             </div>
           </div>
         </a>
-        <a href='https://cheery-pothos-dc837f.netlify.app/'>
+        <a href='https://cheery-pothos-dc837f.netlify.app/' target='blank'>
           <div data-aos="fade-down" className='change border-2 border-fuchsia-800 b_glow'>
             <img height={250} width={250} className='text-[26px] flex items-center justify-center  rounded-3xl p-1 ' src={img2} alt='' />
             <div className='heading'>
@@ -35,7 +35,7 @@ const Projects = () => {
             </div>
           </div>
         </a>
-        <a href='https://flowershop.odoo.com/'>
+        <a href='https://flowershop.odoo.com/' target='blank'>
           <div data-aos="fade-up" className='change border-2 border-fuchsia-800 b_glow'>
             <img  height={250} width={250} className='text-[26px] flex items-center justify-center  rounded-3xl p-1 ' src={img3} alt='' />
             <div className='heading'>
@@ -44,7 +44,7 @@ const Projects = () => {
             </div>
           </div>
         </a>
-        <a href='https://irita.netlify.app'>
+        <a href='https://irita.netlify.app' target='blank'>
           <div data-aos="fade-down" className='change border-2 border-fuchsia-800 b_glow'>
             <img  height={250} width={250} className='text-[26px] flex items-center justify-center  rounded-3xl p-1 ' src={img4} alt='' />
             <div className='heading'>
