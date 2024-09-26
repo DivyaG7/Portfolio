@@ -7,6 +7,7 @@ import { useEffect } from 'react'
 
 
 const Banner = () => {
+    
     useEffect(() => {
         AOS.init({
             easing: 'ease-out-quart',
@@ -18,7 +19,7 @@ const Banner = () => {
     <div className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg-text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
         <div className="h-full lg:py-40 flex flex-col justify-center mb-8 lg:items-start items-center text-white"> 
             <h1 data-aos="fade-right" className="text-[52px] font-semibold leading-normal">Hi, I'm Divya</h1>
-            <h2 data-aos="fade-right" className='mb-8'><span className='text-[32px] font-semibold text-fuchsia-500'>Web Developer</span></h2>
+            <h2 data-aos="fade-right" className='mb-8'><span className='text-[32px] font-semibold text-fuchsia-500'>Full Stack Developer</span></h2>
             {/* <p data-aos="fade-left" >I'm a passionate Frontend Developer with a strong background in crafting engaging and user-centric web experiences. With a keen eye for design and a knack for problem-solving, I strive to create intuitive and visually stunning interfaces that leave a lasting impression. From concept to implementation, I am dedicated to delivering high-quality solutions that meet both user needs and business objectives.</p> */}
             <p data-aos="fade-left" >I'm a passionate and dedicated web developer with a knack for turning ideas into reality through code. With a strong foundation in HTML, CSS, and JavaScript, I specialize in creating dynamic and responsive web applications that not only meet but exceed expectations. My attention to detail, coupled with a creative approach to problem-solving, allows me to craft seamless user experiences that leave a lasting impression.</p>
             <div className="flex mt-8 gap-2">
