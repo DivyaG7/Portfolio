@@ -4,6 +4,7 @@ import img2 from '../assets/project2.png'
 import img3 from '../assets/grd.png'
 import img4 from '../assets/project4.png'
 import img5 from '../assets/amet.png'
+import img6 from '../assets/project5.png'
 import AOS from 'aos'
 
 const Projects = () => {
@@ -51,6 +52,15 @@ const Projects = () => {
             <div className='heading'>
               <p className='flex items-center justify-center font-bold text-[20px] h-content'>Irita</p>
               <p className='flex items-center justify-center p-content'>React / Bootstrap</p>
+            </div>
+          </div>
+        </a>
+        <a href='https://ckconsultants.vercel.app/' target='blank'>
+          <div data-aos="fade-up" className='change border-2 border-fuchsia-800 b_glow'>
+            <img height={250} width={250} className='text-[26px] flex items-center justify-center  rounded-t-3xl p-1 ' src={img6} alt='' />
+            <div className='heading'>
+              <p className='flex items-center justify-center font-bold text-[20px] h-content'>Ck consultants</p>
+              <p className='flex items-center justify-center p-content'>React & Node js</p>
             </div>
           </div>
         </a>
