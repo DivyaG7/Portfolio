@@ -16,7 +16,7 @@ const Banner = () => {
         })
     },[1000])
   return (
-    <div className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg-text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
+    <div className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg-text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center portfolio">
         <div className="h-full lg:py-40 flex flex-col justify-center mb-8 lg:items-start items-center text-white"> 
             <h1 data-aos="fade-right" className="text-[52px] font-semibold leading-normal">Hi, I'm Divya</h1>
             <h2 data-aos="fade-right" className='mb-8'><span className='text-[32px] font-semibold text-fuchsia-500'>Full Stack Developer</span></h2>
