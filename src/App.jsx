@@ -88,7 +88,7 @@ function App() {
             <About />
             <Services />
             <Projects />
-            <Contact />
+            {/* <Contact /> */}
             <Footer />
 
             {/* Persistent circle that follows the mouse */}
