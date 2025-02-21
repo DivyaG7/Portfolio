@@ -14,7 +14,7 @@ const About = () => {
         <div className="flex mt-8 gap-2">
           <div className="flex items-center justify-center">
             <div className="flex space-x-2">
-              <button className="neno-button shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-4 px-8 uppercase relative overflow-hidden"><a href='https://drive.google.com/file/d/12rchdfVDMkxmHo4tYUDOOCPBNyGC4mXS/view?usp=sharing' target='blank'>Resume</a></button>
+              <button className="neno-button shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-4 px-8 uppercase relative overflow-hidden"><a href='https://drive.google.com/file/d/1n0O6SE5orWDxbQo5Gqdab46GA6DVne2u/view?usp=sharing' target='blank'>Resume</a></button>
             </div>
           </div>
         </div>
